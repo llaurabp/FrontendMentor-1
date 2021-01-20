@@ -1,0 +1,43 @@
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    margin: 0;
+  padding: 0;
+    background-size: 180vh;
+    background-position: right 45vw top -120vh, 48vw 50vh;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat; 
+    background-color: hsl(185, 75%, 39%);  
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.card {
+display: flex;
+overflow: hidden;
+width: 320px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+.card-header{
+    background-image: url(images/bg-pattern-card.svg);
+ 
+}
+.profile-photo {
+    border-radius: 50px;
+
+}
+.card-profile {
+
+}
+.card-footer {
+
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
